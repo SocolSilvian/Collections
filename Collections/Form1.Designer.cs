@@ -30,6 +30,7 @@ namespace Collections
         private void InitializeComponent()
         {
             this.testbutton = new System.Windows.Forms.Button();
+            this.collectionsTestButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // testbutton
@@ -42,11 +43,22 @@ namespace Collections
             this.testbutton.UseVisualStyleBackColor = true;
             this.testbutton.Click += new System.EventHandler(this.testbutton_Click);
             // 
+            // collectionsTestButton
+            // 
+            this.collectionsTestButton.Location = new System.Drawing.Point(365, 328);
+            this.collectionsTestButton.Name = "collectionsTestButton";
+            this.collectionsTestButton.Size = new System.Drawing.Size(85, 47);
+            this.collectionsTestButton.TabIndex = 1;
+            this.collectionsTestButton.Text = "Collections";
+            this.collectionsTestButton.UseVisualStyleBackColor = true;
+            this.collectionsTestButton.Click += new System.EventHandler(this.collectionsTestButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.collectionsTestButton);
             this.Controls.Add(this.testbutton);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +69,7 @@ namespace Collections
         #endregion
 
         private System.Windows.Forms.Button testbutton;
+        private System.Windows.Forms.Button collectionsTestButton;
     }
 }
 

@@ -25,5 +25,11 @@ namespace Collections
             GenericClass<float> q = new GenericClass<float>((float)1.25, (float)2.40);
             Console.WriteLine(q.Sum());
         }
+
+        private void collectionsTestButton_Click(object sender, EventArgs e)
+        {
+            Collections t = new Collections();
+            t.f();
+        }
     }
 }
